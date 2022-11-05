@@ -29,3 +29,4 @@ filter_geneTF(geneTFmatrix, gene_list)
 filter_geneTF(geneTFmatrix, gene_list, gene_lowbound=20)
 
 ```
+User can download "geneTFprior.csv" provided in ./data folder as the input of geneTFmatrix in the fileter_geenTF() function. In the "code" folder, we arhive the process about how we generated this geneTFprior.csv
