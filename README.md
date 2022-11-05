@@ -1,7 +1,7 @@
 # Dfilter
-Dfilter is a R package whose function is to filter geneTF prior matrix based on the gene list that user provides. 
+Dfilter is an R package whose function is to filter geneTF prior matrix based on the gene list that the user provides.
 
-In the R enviroment, simply tpye in the following code to load the package
+In the R environment, simply type in the following code to load the package
 ```sh
 library(devtools)
 install.github('xim201/Dfilter')
@@ -29,4 +29,4 @@ filter_geneTF(geneTFmatrix, gene_list)
 filter_geneTF(geneTFmatrix, gene_list, gene_lowbound=20)
 
 ```
-User can download "geneTFprior.csv" provided in ./data folder as the input of geneTFmatrix in the fileter_geenTF() function. In the "code" folder, we arhive the process about how we generated this geneTFprior.csv
+Users can download "geneTFprior.csv" provided in ./data folder as the input of geneTFmatrix in the fileter_geenTF() function. In the "code" folder, we archive the process about how we generated this geneTFprior.csv
